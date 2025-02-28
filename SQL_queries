@@ -1,0 +1,9 @@
+-- This file contains the SQL queries utilised to generate insights into business performance 
+
+--The following query finds the best selling products in terms of units sold
+
+SELECT product_detail, SUM(transaction_qty) AS total_sold
+FROM transaction_details
+JOIN products ON transaction_details.product_id = products.product_id
+GROUP BY product_detail
+ORDER BY total_sold DESC;

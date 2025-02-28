@@ -1,4 +1,4 @@
-This repo contains the CSV and SQL files connected to this project
+This repo contains the CSV and SQL files connected to this project:
 
 coffeeshop-all_orig_data.csv: The original CSV datafile, as downloaded from Kaggle (available from https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales/data)  
 CoffeeShopSchema.png: Visual representation (in PNG format) of DB schema   

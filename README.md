@@ -11,6 +11,8 @@ cs_prod_types.csv: CSV file, containing the data for the Product_Types Table
 cs_products.csv: CSV file, containing the data for the Products Table  
 cs_transactions.csv: CSV file, containing the data for the Transactions Table  
 cs_transaction_details.csv: CSV file, containing the data for the Transaction Details Table  
+SQL_queries: SQL script of all queries used to generate the business insights uncovered during analysis
+Improved_DB.sql: SQL script for an enhanced schema that the coffee shop chain could use to further improve data collection, and ultimately to gain more insights
 
 
 
